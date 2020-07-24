@@ -128,8 +128,7 @@ Depending upon the selected options when creating the project, the generated str
 │       ├── process
 │       │   └── dataset.py
 │       ├── train.py
-│       ├── utils.py
-│  
+│       └── utils.py
 │
 └── tests                    <- Test cases (named after module)
     ├── test_notebook.py     <- Example testing that Jupyter notebooks run without errors
