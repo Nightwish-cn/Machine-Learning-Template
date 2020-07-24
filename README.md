@@ -1,12 +1,10 @@
 [![Build Status](https://dev.azure.com/mhew/data-science-template/_apis/build/status/data-science-template?branchName=master)](https://dev.azure.com/mhew/data-science-template/_build/latest?definitionId=15&branchName=master)
 
-# Data Science Template
+# Machine Learning Template
 This is a starter template for data science projects in Equinor, although it may also be useful for others. It contains many of the essential artifacts that you will need and presents a number of best practices including code setup, samples, MLOps using Azure, a standard document to guide and gather information relating to the data science process and more. 
 
 As it is impossible to create a single template that will meet every projects needs, this example should be considered
 a starting point and changed based upon the working and evolution of your project.
-
-Before working with the contents of this template or Data Science projects in general it is recommended to familiarise yourself with the Equinor [Data Science Technical Standards](https://wiki.statoil.no/wiki/index.php/Statoil_Data_Science_Technical_Standards) (Currently Equinor internal only)
 
 ## Getting Started With This Template
 This template is provided as a [Cookiecutter template](http://cookiecutter.readthedocs.org/en/latest/installation.html) so you
@@ -21,7 +19,7 @@ Cookiecutter 1.4.0 or higher):
 Then generate a new project for your own use based upon the template, answering the questions to customise the generated 
 project:
 
-    cookiecutter https://github.com/equinor/data-science-template.git
+    cookiecutter https://github.com/SeuTao/Machine-Learning-Template.git
     
 The values you are prompted for are:
 
