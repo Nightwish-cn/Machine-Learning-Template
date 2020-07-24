@@ -1,6 +1,5 @@
-[![Build Status](https://dev.azure.com/mhew/data-science-template/_apis/build/status/data-science-template?branchName=master)](https://dev.azure.com/mhew/data-science-template/_build/latest?definitionId=15&branchName=master)
 
-# Machine Learning Template
+# Machine Learning Template - SeuTao
 This is a starter template for data science projects in Equinor, although it may also be useful for others. It contains many of the essential artifacts that you will need and presents a number of best practices including code setup, samples, MLOps using Azure, a standard document to guide and gather information relating to the data science process and more. 
 
 As it is impossible to create a single template that will meet every projects needs, this example should be considered
@@ -117,7 +116,7 @@ Depending upon the selected options when creating the project, the generated str
 │   ├── deploy               <- MLOps scripts for deployment (WIP)
 │   │   └── score.py         <- Scoring script
 │   ├── train                <- MLOps scripts for training
-│   │   ├── submit-train.py  <- Script for submitting a training run to Azure ML Service
+│   │   └── submit-train.py  <- Script for submitting a training run to Azure ML Service
 │   │   ├── submit-train-local.py <- Script for local training using Azure ML
 │   │   └── train.py         <- Example training script using the iris dataset
 │   ├── example.py           <- Example sctipt
@@ -125,11 +124,12 @@ Depending upon the selected options when creating the project, the generated str
 │
 ├── src                      <- Code for use in this project.
 │   └── examplepackage       <- Example python package - place shared code in such a package
-│       ├── __init__.py      <- Python package initialisation
-│       ├── examplemodule.py <- Example module with functions and naming / commenting best practices
-│       ├── features.py      <- Feature engineering functionality
-│       ├── io.py            <- IO functionality
-│       └── pipeline.py      <- Pipeline functionality
+│       ├── net
+│       ├── process
+│       │   └── dataset.py
+│       ├── train.py
+│       ├── utils.py
+│  
 │
 └── tests                    <- Test cases (named after module)
     ├── test_notebook.py     <- Example testing that Jupyter notebooks run without errors
